@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Search from "./components/Search";
+import Modal from "./components/Modal";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="w-2/4">
         <Header />
         <Search />
+        <Modal />
       </div>
     </div>
   );
